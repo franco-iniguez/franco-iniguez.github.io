@@ -1,0 +1,128 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-repeat: none;
+    background-image: url(../imagenes/fonfo.jpg);
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    
+}
+header
+{
+    position: relative;
+    width: 100%;
+    height: 140px;
+    background-color: #ffd117;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color:#B6202D ;
+}
+header h1
+{
+    letter-spacing: 5px;
+    font-family: re4;
+    font-size: 85px;
+    color:rgb(201, 196, 196);
+}
+header img
+{
+    width:100px;
+    height: 100px;
+}
+.cup{
+    color: black;
+    display: flex;
+    align-items: left;
+}
+header article
+{
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+#personajes
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+    margin-top: 60px;
+
+}
+.tazas{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 15%;
+}
+#cuadrado
+{
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    display: flex;
+}
+#cb
+{   
+    width: 100%;
+    margin:20px;
+    overflow: hidden;
+    background:white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    border: solid white;
+    
+}
+#cb:hover
+{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+    border-radius: 20px;
+}
+#info
+{
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    align-self: flex-end;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+
+
